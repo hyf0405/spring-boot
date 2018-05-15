@@ -13,7 +13,7 @@ import java.util.Map;
 @RequestMapping("/hello")
 public class HelloController {
     @RequestMapping
-    public String hello(){
+    public String hello1(){
         return "Hello spring-boot";
     }
 
